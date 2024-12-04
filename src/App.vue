@@ -24,17 +24,17 @@ export default {
     return {
       chartOptions: {
         title: {
-          text: 'ECharts 示例',
+          text: '小明的成绩',
         },
         tooltip: {},
         xAxis: {
-          data: ['苹果', '香蕉', '橙子'],
+          data: ['语文', '数学', '英语'],
         },
         yAxis: {},
         series: [
           {
             type: 'bar',
-            data: [5, 20, 36],
+            data: [85, 90, 87],
           },
         ],
       },
